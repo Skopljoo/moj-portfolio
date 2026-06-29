@@ -34,5 +34,15 @@
     "githubUrl": "#",
     "liveUrl": "#",
     "collaborators": []
+  },
+  {
+    "id": 4,
+    "title": "Novi Projekat",
+    "description": "Opis tvog novog projekta koji si upravo završio...",
+    "image": "/projects/moj-novi-projekat.jpg",
+    "techStack": ["React", "PHP", "SQL"],
+    "githubUrl": "https://github.com/...",
+    "liveUrl": "#",
+    "collaborators": []
   }
 ]
