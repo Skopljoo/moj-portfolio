@@ -3,9 +3,9 @@
     "id": 1,
     "title": "Hardware Hub",
     "description": "Web platforma za prodaju i pretragu polovnih PC komponenti sa ugrađenim sistemom za provjeru kompatibilnosti i custom PC builderom.",
-    "image": "/projects/hardware-hub.jpg",
+    "image": "/projects/hardware-hub.png",
     "techStack": ["Next.js", "TypeScript", "Tailwind CSS", "Node.js", "SQL"],
-    "githubUrl": "https://github.com/tvoj-username/hardware-hub",
+    "githubUrl": "#",
     "liveUrl": "#",
     "collaborators": [
       {
@@ -21,7 +21,7 @@
     "description": "Digitalna aplikacija za TV displeje koja radi u 24/7 modu, sinhronizuje tačne podatke preko eksternog API-ja i optimizovana je protiv curenja memorije.",
     "image": "/projects/tv-kiosk.jpg",
     "techStack": ["JavaScript", "React", "API Integration"],
-    "githubUrl": "https://github.com/tvoj-username/tv-kiosk",
+    "githubUrl": "#",
     "liveUrl": "#",
     "collaborators": []
   },
@@ -29,7 +29,7 @@
     "id": 3,
     "title": "Mrežna Infrastruktura Fabrike",
     "description": "Kompletan dizajn i simulacija fabrike na više spratova sa IoT uređajima i sigurnosnim zonama unutar Cisco Packet Tracer-a.",
-    "image": "/projects/network.jpg",
+    "image": "/projects/network.png",
     "techStack": ["Cisco Packet Tracer", "Networking", "IoT"],
     "githubUrl": "#",
     "liveUrl": "#",
@@ -37,11 +37,11 @@
   },
   {
     "id": 4,
-    "title": "Novi Projekat",
-    "description": "Opis tvog novog projekta koji si upravo završio...",
-    "image": "/projects/moj-novi-projekat.jpg",
-    "techStack": ["React", "PHP", "SQL"],
-    "githubUrl": "https://github.com/...",
+    "title": "Qbox Fivem script for pickpoket",
+    "description": "Skripta za pickpoket NPCa. Skripta je pravljna za qbox framework",
+    "image": "/projects/Pickpocket.png",
+    "techStack": ["Lua"],
+    "githubUrl": "https://github.com/Skopljoo/pickpoket_bySkopljo",
     "liveUrl": "#",
     "collaborators": []
   }
