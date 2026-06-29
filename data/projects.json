@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Hardware Hub",
+    "description": "Web platforma za prodaju i pretragu polovnih PC komponenti sa ugrađenim sistemom za provjeru kompatibilnosti i custom PC builderom.",
+    "image": "/projects/hardware-hub.jpg",
+    "techStack": ["Next.js", "TypeScript", "Tailwind CSS", "Node.js", "SQL"],
+    "githubUrl": "https://github.com/tvoj-username/hardware-hub",
+    "liveUrl": "#",
+    "collaborators": [
+      {
+        "name": "Emin",
+        "role": "Backend Developer",
+        "github": "https://github.com/kolega"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Smart TV Kiosk Display",
+    "description": "Digitalna aplikacija za TV displeje koja radi u 24/7 modu, sinhronizuje tačne podatke preko eksternog API-ja i optimizovana je protiv curenja memorije.",
+    "image": "/projects/tv-kiosk.jpg",
+    "techStack": ["JavaScript", "React", "API Integration"],
+    "githubUrl": "https://github.com/tvoj-username/tv-kiosk",
+    "liveUrl": "#",
+    "collaborators": []
+  },
+  {
+    "id": 3,
+    "title": "Mrežna Infrastruktura Fabrike",
+    "description": "Kompletan dizajn i simulacija fabrike na više spratova sa IoT uređajima i sigurnosnim zonama unutar Cisco Packet Tracer-a.",
+    "image": "/projects/network.jpg",
+    "techStack": ["Cisco Packet Tracer", "Networking", "IoT"],
+    "githubUrl": "#",
+    "liveUrl": "#",
+    "collaborators": []
+  }
+]
