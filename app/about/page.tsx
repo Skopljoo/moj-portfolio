@@ -40,12 +40,6 @@ export default function AboutPage() {
 
         {/* Title Header */}
         <div className="space-y-2">
-          <div className="flex items-center gap-2.5">
-            <span className="w-2 h-2 rounded-full bg-[#526643]" />
-            <span className="text-xs font-mono uppercase tracking-widest text-[#9cb589]">
-              Biografija &amp; Akademski Profil
-            </span>
-          </div>
           <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight text-white">
             O Meni
           </h1>
@@ -76,7 +70,7 @@ export default function AboutPage() {
                   Jusuf Skopljak
                 </h2>
                 <p className="text-base md:text-lg font-medium text-[#dce7d1] tracking-wide">
-                  Software &amp; Hardware Engineer
+                  Software &amp; Developer
                 </p>
                 <div className="pt-2 space-y-1.5 text-xs md:text-sm text-[#e8f0df]">
                   <a

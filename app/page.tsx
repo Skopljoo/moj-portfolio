@@ -15,22 +15,19 @@ export default function Home() {
 
         <div className="max-w-4xl mx-auto text-center space-y-6 relative z-10">
           {/* USER REQUIREMENT: Above 'Software & Hardware Engineer', put 'SOFTWARE DEVELOPER' */}
-          <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-zinc-900/80 border border-[#526643]/70 text-[#c5d6b4] text-xs font-mono font-semibold uppercase tracking-widest shadow-lg shadow-black/40">
-            <span className="w-2 h-2 rounded-full bg-[#8ea47c] animate-pulse" />
-            <span>SOFTWARE DEVELOPER</span>
-          </div>
+
 
           {/* Heading */}
           <h1 className="text-4xl sm:text-6xl md:text-7xl font-extrabold text-white tracking-tight leading-[1.1]">
-            Software & Hardware <br />
+            Software  <br />
             <span className="bg-gradient-to-r from-white via-zinc-200 to-[#9cb589] bg-clip-text text-transparent">
-              Engineer
+              Developer
             </span>
           </h1>
 
           {/* Subtitle with strictly Zenica location */}
           <p className="text-zinc-400 text-base sm:text-lg md:text-xl max-w-2xl mx-auto leading-relaxed font-light">
-            Pozdrav, ja sam <strong className="text-white font-semibold">Jusuf Skopljak</strong>. Specijalizovan za razvoj modernih web aplikacija, skalabilnih IT sistema, automatizaciju i Cisco mrežnu infrastrukturu.
+            Pozdrav, ja sam <strong className="text-white font-semibold">Jusuf Skopljak</strong>. Bavim se razvojem modernih web aplikacija, skalabilnih IT sistema, automatizaciju i mrežnu infrastrukturu.
           </p>
 
           {/* Location Badge */}
