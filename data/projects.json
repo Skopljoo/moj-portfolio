@@ -1,0 +1,184 @@
+[
+  {
+    "id": "hardware-hub",
+    "title": "Hardware Hub",
+    "category": "Web Aplikacija & Hardver",
+    "badge": "Full-Stack Aplikacija",
+    "shortDescription": "Platforma za pregled računarskih komponenti, slaganje PC konfiguracija i provjeru kompatibilnosti hardvera.",
+    "description": "Hardware Hub je sveobuhvatna web platforma razvijena za entuzijaste i kupce računarske opreme. Omogućava detaljno istraživanje i filtriranje komponenti po tehničkim parametrima, automatsku provjeru kompatibilnosti (podnožje procesora, dimenzije grafičke kartice, napojna jedinica) te slaganje i kalkulaciju cijene optimalne konfiguracije računara.",
+    "image": "/projects/hardware-hub.png",
+    "images": [
+      "/projects/hardware-hub.png",
+      "/projects/hardware-hub-builder.jpg"
+    ],
+    "techStack": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "collaborators": [
+      {
+        "name": "Nihad Jašarević",
+        "role": "Frontend & UI Saradnik",
+        "github": "https://github.com/NihadJasarevic"
+      }
+    ],
+    "githubUrl": "https://github.com/Skopljoo/Hardware-Hub",
+    "liveUrl": null,
+    "features": [
+      "Interaktivni PC Builder s automatskom provjerom kompatibilnosti komponenti",
+      "Baza podataka procesora, matičnih ploča, GPU-a, RAM-a i kućišta s detaljnim specifikacijama",
+      "Kalkulator potrošnje električne energije (TDP) i preporuka odgovarajućeg napajanja",
+      "Prilagođen i responzivan korisnički interfejs optimizovan za sve uređaje"
+    ],
+    "challenges": "Najveći tehnički izazov bio je razvoj logike validacije kompatibilnosti hardvera u realnom vremenu — osiguravanje da odabrana matična ploča odgovara soketu procesora, da je RAM podržane generacije (DDR4/DDR5) i da dimenzije hladnjaka i grafičke kartice odgovaraju izabranom kućištu."
+  },
+  {
+    "id": "smart-tv-kiosk",
+    "title": "Smart TV Kiosk Display",
+    "category": "IoT & Display Sistemi",
+    "badge": "24/7 Digital Signage",
+    "shortDescription": "24/7 digitalni informativni kiosk sistem za smart TV ekrane sa vaktijom, vremenskom prognozom i obavijestima.",
+    "description": "Smart TV Kiosk Display je specijalizovani digitalni signage sistem konstruisan za neprekidan rad 24/7 na smart televizorima i zidnim display uređajima. Aplikacija u realnom vremenu preuzima tačna namaska vremena, vremenske prilike, obavijesti i važne servisne informacije.",
+    "image": "/projects/tv-kiosk.jpg",
+    "images": [
+      "/projects/tv-kiosk.jpg"
+    ],
+    "techStack": [
+      "JavaScript",
+      "HTML5/CSS3",
+      "REST API",
+      "Smart TV WebOS",
+      "Node.js"
+    ],
+    "collaborators": [],
+    "githubUrl": "#",
+    "liveUrl": null,
+    "features": [
+      "Tačan proračun i prikaz vaktije sinhronizovan putem eksternog REST API-ja",
+      "Prikaz trenutnog vremena i trenutnih dnevnih namaza",
+      "Automatski offline fallback mehanizam koji sprečava prekid prikaza pri nestanku interneta",
+      "Nisko opterećenje memorije i CPU resursa prilagođeno slabijim TV procesorima"
+    ],
+    "challenges": "Glavni fokus bio je napraviti sistem koji moze da funkcionise na vise razlićitih smart TV platformi i da svako mjesto gdje je postavljen program ima nešto unikatno za to mjesto."
+  },
+  {
+    "id": "network-infrastructure",
+    "title": "Mrežna Infrastruktura Fabrike",
+    "category": "Mrežni Inženjering",
+    "badge": "Enterprise Cisco Mreža",
+    "shortDescription": "Amaterski projekat fabričke mrežne infrastrukture na više spratova sa VLAN segmentacijom i IoT nadzorom.",
+    "description": "Iletnu VLAN segmentacijnženjerski projekat mrežne arhitekture za višespratni industrijski pogon. Uključuje kompu za odvajanje administrativnog, proizvodnog i serverskog saobraćaja, redundantne Layer 3 switcheve s failover protokolima, sigurnosne police i IoT senzorski monitoring.",
+    "image": "/projects/network-preview.jpg",
+    "images": [
+      "/projects/network.png"
+    ],
+    "techStack": [
+      "Cisco Packet Tracer",
+      "VLAN & Trunking",
+      "OSPF Routing",
+      "DHCP Snooping",
+      "IoT Sensors",
+      "Network Security"
+    ],
+    "collaborators": [],
+    "githubUrl": "#",
+    "liveUrl": null,
+    "features": [
+      "VLAN segmentacija: Uprava, Proizvodni pogon, Server sala, Kamere i IoT senzori",
+      "Konfiguracija OSPF dinamičkog rutiranja i redundantnih putanja",
+      "Implementacija DHCP Snoopinga, Port Security zaštite i Access Control Listi (ACL)",
+      "Povezivanje IoT senzora temperature, dima i vlažnosti u centralni nadzorni sistem"
+    ],
+    "challenges": "Glavni fokus ove mrežne infrastrukture je bio na pokusaj testiranja teoriskog znanja i postizanja Cisco CCNA nivoa znanja, uspio sam povezati sve uređaje i uspostaviti komunikaciju između njih"
+  },
+  {
+    "id": "qbox-pickpocket",
+    "title": "Qbox Fivem script for pickpoket",
+    "category": "Game Development & Scripting",
+    "badge": "FiveM Roleplay Skripta",
+    "shortDescription": "Optimizovana Lua skripta za džeparenje na FiveM Qbox serverima sa mini-igrom, vjerovatnoćom i policijskim dojavama.",
+    "description": "Napredna gameplay skripta razvijena za FiveM platformu i Qbox/QBCore framework. Omogućava igračima interaktivno džeparenje NPC karaktera ili drugih igrača kroz mini-igru reakcije, uz dinamički proračun rizika, mogućnost plijena i automatsku dojavu policijskim jedinicama pri neuspjehu.",
+    "image": "/projects/qbox-preview.jpg",
+    "images": [
+      "/projects/pickpocket.png"
+    ],
+    "techStack": [
+      "Lua",
+      "FiveM API",
+      "Qbox Framework",
+      "ox_lib",
+      "NUI / CSS"
+    ],
+    "collaborators": [],
+    "githubUrl": "https://github.com/Skopljoo/pickpoket_bySkopljo",
+    "liveUrl": null,
+    "features": [
+      "Integracija sa modernim ox_lib komponentama za brze animacije i mini-igre",
+      "Konfigurabilne tabele plijena (loot tables) sa postotcima uspjeha",
+      "Automatsko slanje koordinata i dispečerskog koda policiji pri neuspjelom pokušaju",
+      "Maksimalna optimizacija performansi sa resmon potrošnjom od 0.00ms u mirovanju"
+    ],
+    "challenges": "Kod ovog projekta testirao sam AI asistente kako se snalaze u lua codu i da li mogu napraviti optimizovan kod bez gresaka, uspio sam. "
+  },
+  {
+    "id": "supportdesk-app",
+    "title": "SupportDesk App",
+    "category": "Enterprise Desktop Softver",
+    "badge": "C# IT Ticketing Sistem",
+    "shortDescription": "Interna desktop aplikacija za evidenciju IT prijava, praćenje kvarova računara i printera te upravljanje tiketima.",
+    "description": "Interni IT Helpdesk i ticketing sistem razvijen u C# .NET okruženju. Aplikacija omogućava centralizovano prijavljivanje tehničkih problema s hardverom, printerima, mrežom ili softverom, dodjelu IT osoblju, praćenje statusa i analitiku rješavanja.",
+    "image": "/projects/supportdesk.png",
+    "images": [
+      "/projects/supportdesk.png"
+    ],
+    "techStack": [
+      "C#",
+      ".NET",
+      "Windows Forms / WPF",
+      "Microsoft SQL Server",
+      "Entity Framework"
+    ],
+    "collaborators": [],
+    "githubUrl": "#",
+    "liveUrl": null,
+    "features": [
+      "Korisnički panel za brzo kreiranje novih prijava kvarova i potreba za servisom",
+      "Administratorska kontrolna tabla sa filtriranjem po statusu, prioritetu i lokaciji",
+      "Istorija servisiranja i zamjene računarskih komponenti po radnim stanicama",
+      "Generisanje mjesečnih izvještaja o efikasnosti i najčešćim tehničkim problemima"
+    ],
+    "challenges": "Jos je u fazi izrade i testiranja"
+  },
+  {
+    "id": "time-calculator",
+    "title": "Web TimeCalculator",
+    "category": "Web Aplikacija",
+    "badge": "Produktivnost & Obračun",
+    "shortDescription": "Web kalkulator radnog vremena i satnice za jednostavno praćenje smjena, prekovremenih sati i obračuna dnevnica.",
+    "description": "Web aplikacija namijenjena radnicima i poslodavcima za jednostavno bilježenje i automatski obračun radnih sati. Podržava rad u smjenama, noćne sate, prekovremeni rad te nudi izvoz obračuna u formatu pogodnom za arhivu ili print.",
+    "image": "/projects/timecalculator-preview.jpg",
+    "images": [
+      "/projects/timecalculator-preview.jpg"
+    ],
+    "techStack": [
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Netlify",
+      "LocalStorage API"
+    ],
+    "collaborators": [],
+    "githubUrl": "https://github.com/Skopljoo/TimeSheet",
+    "liveUrl": "https://tsbyskopljo.netlify.app",
+    "features": [
+      "Automatski proračun ukupnih radnih sati na osnovu vremena početka i završetka",
+      "Odvojeno evidentiranje pauza i prekovremenih sati",
+      "Čuvanje unosa u lokalnoj memoriji pretraživača bez potrebe za registracijom",
+      "Responzivan dizajn prilagođen za unos putem mobilnih telefona"
+    ],
+    "challenges": "Pravilno računanje sati preko ponoći (noćne smjene) i obezbjeđivanje čistog korisničkog iskustva koje eliminiše potrebu za komplikovanim Excel tabelama."
+  }
+]
